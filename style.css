@@ -1,0 +1,89 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    flex-direction: column;
+    background: linear-gradient(45deg,rgb(245, 25, 73),blue);
+    min-height: 100vh;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+.my-app{
+    /* border: 1px solid rgba(53, 35, 35, 0.356); */
+    border-radius: 9px;
+    box-shadow: 0 0 10px black;
+    padding: 1rem;
+    width: 400px;
+    height: 200px;
+
+    background: linear-gradient(45deg,blue,rgb(245, 25, 73));
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+.set{
+    /* border: 1px solid black; */
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    height: 2rem;
+    input{
+        outline: none;
+        border: none;
+        text-align: center;
+        border-radius: 9px 0 0 9px;
+        width: 70%;
+        /* height: 2rem; */
+    }
+    select{
+        border-radius: 0px 9px 9px 0px;
+        width: 30%;
+        background: rgba(7, 29, 230, 0.637);
+        color: aliceblue;
+        text-align: center;
+        padding-right: 1rem;
+    }
+    button,
+    select{
+        border: 0;
+        outline: none;
+        cursor: pointer;
+        transition: 0.5s;
+    }
+    .btn:first-child{
+        background: rgba(38, 211, 22, 0.986);
+        width: 60%;
+        border-radius: 9px;
+    }
+    .btn:last-child{
+        background: honeydew;
+        width: 35%;
+        border-radius: 9px;
+    }
+    .btn:hover{
+        box-shadow: 0 0 9px black;
+    }
+}
+#resultat{
+    width: 100%;
+    resize: none;
+    height: 5rem;
+    outline: none;
+    border: none;
+    padding: 1rem;
+
+    text-align: center;
+    font-size: 1rem;
+    font-weight: lighter;
+
+    border-radius: 7px 0;
+    /* box-shadow: 0 0 4px; */
+    background: linear-gradient(45deg,rgb(216, 231, 225),rgba(143, 204, 191, 0.623));
+
+}
