@@ -9,9 +9,9 @@
 </head>
 <body>
     <main class="my-app">
-        
         <div class="set">
-            <input id="userInput" type="text" placeholder="mampidira isa ...">
+
+            <input id="userInput" type="text" placeholder="mampidira isa ..." pattern="[0-9]+([.][0-9]+)?">
             <select id="fiteny">
                 <option value="0">Mlg</option>
                 <option value="1">Fr</option>
@@ -22,8 +22,8 @@
         <textarea  id="resultat" readonly></textarea>
         
         <div class="set">
-            <button class="btn">Cancel</button>
-            <button class="btn">execut</button>    
+            <button class="btn" id="cancel">Cancel</button>
+            <button class="btn" id="execute">Execute</button>
         </div>
     </main>
 </body>

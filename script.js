@@ -106,7 +106,6 @@ const btn_mthd = [
 /**
  * !type button
  */
-
 for (let i = 0; i < btn.length; i++) {
     btn[i].addEventListener('click',()=>{
         //console.log(btn_mthd[i].call());
